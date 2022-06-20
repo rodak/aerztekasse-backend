@@ -4,13 +4,13 @@ import java.util.List;
 
 public class PlaceDetails extends Place {
 
-    private List<OpeningHour> openingHours;
+    private List<PlaceDetailsOpeningHour> openingHours;
 
-    public List<OpeningHour> getOpeningHours() {
+    public List<PlaceDetailsOpeningHour> getOpeningHours() {
         return openingHours;
     }
 
-    public void setOpeningHours(List<OpeningHour> openingHours) {
+    public void setOpeningHours(List<PlaceDetailsOpeningHour> openingHours) {
         this.openingHours = openingHours;
     }
 }
